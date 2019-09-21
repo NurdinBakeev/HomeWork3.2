@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".LogicActivity">
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="179dp"
+        android:layout_height="89dp"
+        android:text="+"
+        android:textSize="60sp"
+        android:onClick="onClick"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="200sp"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="179dp"
+        android:layout_height="89dp"
+        android:text="/"
+        android:textSize="60sp"
+        android:onClick="onClick"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="300sp"/>
+
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="179dp"
+        android:layout_height="89dp"
+        android:text="*"
+        android:textSize="60sp"
+        android:onClick="onClick"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="400sp"/>
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="179dp"
+        android:layout_height="89dp"
+        android:text="-"
+        android:textSize="60sp"
+        android:onClick="onClick"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="500sp"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Арифметечиское действие"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="97dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="100sp"/>
+
+    <TextView
+        android:id="@+id/text_num1"
+        android:layout_width="138dp"
+        android:layout_height="43dp"
+        android:text="1 num"
+        android:textSize="40sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="50sp"/>
+
+    <TextView
+        android:id="@+id/text_num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 num"
+        android:textSize="40sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="50sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
